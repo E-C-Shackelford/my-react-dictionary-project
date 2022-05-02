@@ -1,0 +1,16 @@
+.Dictionary form {
+  text-align: center;
+}
+.Dictionary .search-bar {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 550;
+  padding: 10px 15px;
+  text-align: left;
+}
+.Dictionary button {
+  font-family: "Josefin Sans", sans-serif;
+  font-size: 20px;
+  font-weight: 500px;
+  padding: 10px 15px;
+}

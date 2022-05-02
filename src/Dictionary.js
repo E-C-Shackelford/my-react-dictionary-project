@@ -34,7 +34,9 @@ export default function Dictionary() {
           autoComplete="off"
           onFocus={(event) => (event.target.value = "")}
           onChange={handleKeywordChange}
+          className="search-bar"
         />
+        <button>Search</button>
       </form>
       <Results results={results} />
     </div>
