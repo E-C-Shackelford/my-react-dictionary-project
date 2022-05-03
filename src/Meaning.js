@@ -2,7 +2,7 @@ import React from "react";
 import Synonyms from "./Synonyms";
 
 export default function Meaning(props) {
-  console.log(props.meaning);
+  //console.log(props.meaning);
   // whenever a meaning is received, display partOfSpeech and move through all definitions and inside each display the definition and example
   return (
     <div className="Meaning">
