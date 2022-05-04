@@ -1,0 +1,13 @@
+.Phonetic .listen-button {
+  font-size: 16px;
+  font-weight: bold;
+  margin: 10px;
+  transition: all 200ms ease-in-out;
+}
+.Phonetic .listen-button:hover {
+  cursor: pointer;
+}
+.Phonetic .listen-text {
+  font-size: 17px;
+  opacity: 0.8;
+}

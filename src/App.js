@@ -10,7 +10,16 @@ export default function App() {
         <main>
           <Dictionary />
         </main>
-        <footer className="App-footer">Built by Elizabeth Shackelford</footer>
+        <footer className="App-footer">
+          <a
+            href="https://github.com/E-C-Shackelford/my-react-dictionary-project"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            Built
+          </a>{" "}
+          by Elizabeth Shackelford
+        </footer>
       </div>
     </div>
   );

@@ -1,6 +1,8 @@
 import React from "react";
 import Synonyms from "./Synonyms";
 
+import "./Meaning.css";
+
 export default function Meaning(props) {
   //console.log(props.meaning);
   // whenever a meaning is received, display partOfSpeech and move through all definitions and inside each display the definition and example
@@ -10,9 +12,14 @@ export default function Meaning(props) {
       {props.meaning.definitions.map(function (definition, index) {
         return (
           <div key={index}>
-            <strong>Definition: </strong> {definition.definition}
-            <br />
-            <em>{definition.example}</em>
+            <div className="definition">
+              <span className="definition-text">Definition: </span>{" "}
+              <span className="definition-details">
+                {definition.definition}
+              </span>
+            </div>
+
+            <div className="examples">{definition.example}</div>
             <Synonyms synonyms={definition.synonyms} />
           </div>
         );

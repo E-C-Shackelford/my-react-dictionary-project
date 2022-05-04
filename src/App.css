@@ -1,5 +1,14 @@
 @import url("https://fonts.googleapis.com/css2?family=Josefin+Sans&display=swap");
 
+.container {
+}
+.App a {
+  color: #ff865e;
+}
+.App a:hover {
+  color: #ff865e;
+  cursor: pointer;
+}
 .App-header {
   font-family: "Josefin Sans", sans-serif;
   font-size: 80px;
@@ -7,6 +16,10 @@
   text-align: center;
 }
 .App-footer {
-  margin: 100px 0;
+  color: #ff865e;
+  margin: 20px 0;
   text-align: center;
+}
+.App-footer a:hover {
+  color: #1089ff;
 }
