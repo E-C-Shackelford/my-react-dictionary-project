@@ -21,10 +21,11 @@ export default function Dictionary(props) {
     setPhotos(response.data.photos);
   }
 
-  //function search(event) {
-  //event.preventDefault();
-  //alert(`Searching for the definition of ${keyword}`);
-  //}
+  /*function search(event) {
+  event.preventDefault();
+  alert(`Searching for the definition of ${keyword}`);
+  }*/
+
   function search() {
     let apiUrl = `https://api.dictionaryapi.dev/api/v2/entries/en_US/${keyword}`;
     axios.get(apiUrl).then(handleResponse);
