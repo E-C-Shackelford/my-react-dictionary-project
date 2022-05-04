@@ -5,8 +5,8 @@ export default function Synonyms(props) {
   // check if we have synonyms, loop through them one at a time, and display synonym for each
   if (props.synonyms) {
     return (
-      <div>
-        <span className="synonym-text">Synonyms:</span>
+      <div className="Synonyms">
+        <span className="synonym-text"></span>
         <ul>
           {props.synonyms.map(function (synonym, index) {
             return <li key={index}>{synonym}</li>;
