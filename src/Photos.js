@@ -2,11 +2,11 @@ import React from "react";
 import "./Photos.css";
 
 export default function Photos(props) {
-  console.log(props.photos);
+  //console.log(props.photos);
   if (props.photos) {
     return (
       <section className="Photos">
-        <div className="row justify-content-evenly">
+        <div className="row">
           {props.photos.map(function (photo, index) {
             return (
               <div className="col-4" key={index}>
