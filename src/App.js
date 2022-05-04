@@ -15,6 +15,7 @@ export default function App() {
             href="https://github.com/E-C-Shackelford/my-react-dictionary-project"
             target="_blank"
             rel="noopener noreferrer"
+            title="Visit My Project GitHub Page"
           >
             This project was coded by Elizabeth Shackelford
           </a>
