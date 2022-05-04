@@ -1,13 +1,8 @@
 h3 {
   font-size: 35px;
 }
-.Meaning .definition {
-  font-size: 18px;
-}
-.Meaning .definition-text {
-  font-weight: bold;
-}
 .Meaning .definition-details {
+  font-size: 18px;
   font-weight: 500;
 }
 .Meaning .examples {
