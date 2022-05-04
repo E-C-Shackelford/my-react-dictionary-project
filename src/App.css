@@ -20,6 +20,9 @@
   margin: 20px 0;
   text-align: center;
 }
+.App-footer a {
+  text-decoration: none;
+}
 .App-footer a:hover {
   color: #1089ff;
 }

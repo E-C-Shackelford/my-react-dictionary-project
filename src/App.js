@@ -16,9 +16,8 @@ export default function App() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            Built
-          </a>{" "}
-          by Elizabeth Shackelford
+            This project was coded by Elizabeth Shackelford
+          </a>
         </footer>
       </div>
     </div>
