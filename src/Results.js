@@ -12,13 +12,17 @@ export default function Results(props) {
       <div className="Results">
         <section>
           <h2>{props.results.word}</h2>
-          {props.results.phonetics.map(function (phonetic, index) {
-            return (
-              <div key={index}>
-                <Phonetic phonetic={phonetic} />
-              </div>
-            );
-          })}
+          {props.results.phonetics
+            .filter(function (phonetic) {
+              return phonetic.audio;
+            })
+            .map(function (phonetics, index) {
+              return (
+                <div key={index}>
+                  <Phonetic phonetic={phonetics} />
+                </div>
+              );
+            })}
         </section>
         {props.results.meanings.map(function (meaning, index) {
           // return meaning.definitions[0].definition;
